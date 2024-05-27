@@ -13,9 +13,9 @@ const Page = () => (
     <div className='relative'>
     <Chef />
     <div className='gradient-04 z-0'/>
-    <Photographer />
-    </div>
     <Traveler />
+    </div>
+    <Photographer />
     <div className='relative'>
     <Painter />
     <div className='gradient-04 z-0'/>

@@ -5,14 +5,14 @@ export const exploreWorlds = [
     title: 'The Chef',
   },
   {
-    id: 'photo',
-    imgUrl: '/phot.jpg',
-    title: 'The Photographer',
-  },
-  {
     id: 'travel',
     imgUrl: '/travel.jpg',
     title: 'The Traveler',
+  },
+  {
+    id: 'photo',
+    imgUrl: '/phot.jpg',
+    title: 'The Photographer',
   },
   {
     id: 'paint',
