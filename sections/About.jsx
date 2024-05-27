@@ -21,7 +21,7 @@ const About = () => (
                 className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
               >
                 <span className="font-extrabold text-white">Welcome to My World! Dive into my passions and explore what I love doing when I am not behind the desk.</span><br/>
-                Hi, I am Kinjal!  When I am not working, I am a chef in my kitchen, an painter in my studio, a photographer and a wanderer in the great outdoors who loves to dance. This page is a little  
+                Hi, I am Kinjal!  When I am not working, I am a chef in my kitchen, a painter in my studio, a photographer and a wanderer in the great outdoors who loves to dance. This page is a little  
                 <span className="font-extrabold text-white"> window into the things that make me, me!</span> 
               </motion.p>
 

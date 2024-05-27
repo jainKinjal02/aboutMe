@@ -1,26 +1,26 @@
 export const exploreWorlds = [
   {
-    id: 'world-1',
+    id: 'chef',
     imgUrl: '/Chef.jpg',
     title: 'The Chef',
   },
   {
-    id: 'world-2',
+    id: 'photo',
     imgUrl: '/phot.jpg',
     title: 'The Photographer',
   },
   {
-    id: 'world-3',
+    id: 'travel',
     imgUrl: '/travel.jpg',
     title: 'The Traveler',
   },
   {
-    id: 'world-4',
+    id: 'paint',
     imgUrl: '/painter.jpg',
     title: 'The Painter',
   },
   {
-    id: 'world-5',
+    id: 'dance',
     imgUrl: '/Dance.jpg',
     title: 'The Dancer',
   },
