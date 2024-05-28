@@ -49,22 +49,34 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: '/p1.jpeg',
+    title: 'Venice, A Nighttime Whisper',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'Where the water mirrors the moonlit whispers of ancient paths',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: '/p2.jpeg',
+    title: "Alpine Blossoms: Interlaken's Floral Symphony",
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'Where nature composes a vibrant melody, one petal at a time',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: '/p3.jpg',
+    title: "Winter's Majesty: Peaks of Grindelwald",
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'Embracing the silence where snowflakes dance upon the timeless giants',
+  },
+  {
+    imgUrl: '/p4.jpeg',
+    title: 'Eternal Crossings: Bridges of Rome',
+    subtitle:
+        'Where history flows under the arches, whispering tales of the ages',
+  },
+  {
+    imgUrl: '/p5.JPG',
+    title: 'Sacred Geometry: The Vatican Square',
+    subtitle:
+        'Where the echoes of faith and art converge in spiritual harmony',
   },
 ];
 

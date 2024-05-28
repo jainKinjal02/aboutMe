@@ -47,8 +47,18 @@ const Traveler = () => (
           className='w-[155px] h-[155px] object-cover rounded-full'
           />
        </motion.div>
-  </motion.div>
+       </motion.div>
     </motion.div>
+    <motion.div  
+       variants={fadeIn('left', 'tween',0.2,1)}
+      className='relative flex-1 flex justify-center items-center gap-10'
+    >
+    <img src='/travelPhoto1.jpeg' alt='travel' className='w-[300px] mt-10 h-auto object-cover rounded-[10px]' />
+    <img src='/travelPhoto2.jpeg' alt='travel' className='w-[300px] mt-10 h-auto object-cover rounded-[10px]' />
+    <img src='/travelPhoto3.jpeg' alt='travel' className='w-[300px] mt-10 h-auto object-cover rounded-[10px]' />
+    <img src='/travelPhoto4.jpeg' alt='travel' className='w-[300px] mt-10 h-auto object-cover rounded-[10px]' />
+
+  </motion.div>
   </section>
 );
 
