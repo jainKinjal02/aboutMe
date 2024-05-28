@@ -84,17 +84,17 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
+    eUrl: 'https://twitter.com/jKinjal02'
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    eUrl: 'https://www.linkedin.com/in/kinjal-jain-021196kj/'
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
-  },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
-  },
+    eUrl: 'https://www.instagram.com/jainkinjal02/'
+
+  }
 ];
