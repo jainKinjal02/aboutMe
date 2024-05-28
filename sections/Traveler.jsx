@@ -51,12 +51,12 @@ const Traveler = () => (
     </motion.div>
     <motion.div  
        variants={fadeIn('left', 'tween',0.2,1)}
-      className='relative flex-1 flex justify-center items-center gap-10'
+      className='relative flex flex-wrap justify-center items-center gap-10 p-4'
     >
-    <img src='/travelPhoto1.jpeg' alt='travel' className='w-[300px] mt-10 h-auto object-cover rounded-[10px]' />
-    <img src='/travelPhoto2.jpeg' alt='travel' className='w-[300px] mt-10 h-auto object-cover rounded-[10px]' />
-    <img src='/travelPhoto3.jpeg' alt='travel' className='w-[300px] mt-10 h-auto object-cover rounded-[10px]' />
-    <img src='/travelPhoto4.jpeg' alt='travel' className='w-[300px] mt-10 h-auto object-cover rounded-[10px]' />
+    <img src='/travelPhoto1.jpeg' alt='travel' className='w-[300px] sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 object-cover rounded-lg mt-10' />
+    <img src='/travelPhoto2.jpeg' alt='travel' className='w-[300px] sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 object-cover rounded-lg mt-10' />
+    <img src='/travelPhoto3.jpeg' alt='travel' className='w-[300px] sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 object-cover rounded-lg mt-10' />
+    <img src='/travelPhoto4.jpeg' alt='travel' className='w-[300px] sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 object-cover rounded-lg mt-10' />
 
   </motion.div>
   </section>
