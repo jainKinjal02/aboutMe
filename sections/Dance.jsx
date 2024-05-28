@@ -1,9 +1,8 @@
 'use client';
+import { motion } from 'framer-motion';
 
-import {motion} from 'framer-motion';
 import styles from '../styles';
-import {fadeIn, staggerContainer} from '../utils/motion';
-import { TitleText, TypingText } from '../components';
+import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
 
 const Dance = () => (
   <section className={`${styles.paddings} relative z-10`} id='dance'>
@@ -12,61 +11,44 @@ const Dance = () => (
       initial='hidden'
       whileInView='show'
       viewport={{once: false, amount: 0.25}}
-      className={`${styles.innerWidth} mx-auto flex flex-col`}
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6`}
       >
-        <TypingText title="| People on the World" textStyles="text-center"/>
-        <TitleText title={<>
-          Track friends around you and invite them to play together in the same world
-        </>} textStyles="text-center"/>
-
         <motion.div
-            variants={fadeIn('up', 'tween', 0.3, 1)}
-            className='relative mt-[68px] flex w-full h-[550px]'
+          variants={fadeIn('right','tween',0.2,1)}
+          className='flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05
+           sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] relative'
         >
-            <img 
-                src='/map.png'
-                alt='map'
-                className='w-full h-full object-cover'
-                />
-
-                <div className='absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px]
-                    rounded-full bg-[#5d6680]'>
-                      <img 
-                        src="people-01.png" alt='people-1'
-                        className='w-full h-full'
-                      />
-                </div>
-                <div className='absolute top-10 left-20 w-[70px] h-[70px] p-[6px]
-                    rounded-full bg-[#5d6680]'>
-                      <img 
-                        src="people-02.png" alt='people-1'
-                        className='w-full h-full'
-                      />
-                </div>
-                <div className='absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px]
-                    rounded-full bg-[#5d6680]'>
-                      <img 
-                        src="people-03.png" alt='people-1'
-                        className='w-full h-full'
-                      />
-                </div>
-                <div className='absolute top-20 right-[28%] w-[100px] h-[70px] p-[4px]
-                    rounded-[5px] bg-[#5d6680]'>
-                      <img 
-                        src="planet-05.png" alt='people-1'
-                        className='w-full h-full rounded-[5px]'
-                      />
-                </div>
-                <div className='absolute bottom-20 left-[20%] w-[100px] h-[70px] p-[4px]
-                    rounded-[5px] bg-[#5d6680]'>
-                      <img 
-                        src="planet-06.png" alt='people-1'
-                        className='w-full h-full rounded-[5px]'
-                      />
-                </div>
+            <div className='feedback-gradient'/>
+            <div>
+              <h4 className='font-bold sm:text-[30px] text-[24px] sm:leading-[38px]
+               leading-[36px] text-white'>
+                 Echoes of Motion
+              </h4>
+              <p className='mt-[6px] font-normal sm:text-[16px] text-[10px] sm:leading-[20px] leading-[14px] text-white'>
+               Dancing Through Life
+              </p>
+            </div>
+            <p className='mt-[24px] font-normal sm:text-[22px] text-[12px] sm:leading-[43px] leading-[39px] text-white'>
+            Dance is the rhythm of my soul, a dynamic expression where every movement tells a story. It's a passionate embrace of music and motion, where I lose myself and find freedom in each step. Dance is not just an art, it's the pulse of life itself.
+            </p>
         </motion.div>
-      </motion.div>
-  
+  <motion.div
+      variants={fadeIn('left', 'tween',0.2,1)}
+      className='relative flex-1 flex justify-center items-center'
+    >
+      <img src='/dance1.jpg' alt="planet" className='w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]'
+       />
+
+       <motion.div
+        variants={zoomIn(0.4,1)}
+        className='lg:block hidden absolute -left-[10%] top-[3%]'
+       >
+          <img src='/dance2.jpg' alt='stamp'
+          className='w-[155px] h-[155px] object-cover rounded-full'
+          />
+       </motion.div>
+       </motion.div>
+    </motion.div>
   </section>
 );
 
