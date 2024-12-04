@@ -89,7 +89,7 @@ export const socials = [
   {
     name: 'linkedin',
     url: '/linkedin.svg',
-    eUrl: 'https://www.linkedin.com/in/kinjal-jain-021196kj/'
+    eUrl: 'https://www.linkedin.com/in/jainkinjal02/'
   },
   {
     name: 'instagram',
